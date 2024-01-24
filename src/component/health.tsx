@@ -7,7 +7,7 @@ const Health: React.FC = () => {
   };
 
   return (
-    <Card title="Health Information" style={{ maxWidth: 600, margin: "auto" }}>
+    <Card title="Health Information">
       <form onSubmit={handleFormSubmit}>
         <label>
           <input type="radio" name="like" value="like" /> Yes

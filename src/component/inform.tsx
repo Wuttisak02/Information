@@ -22,7 +22,7 @@ const formItemLayout = {
 };
 
 const Inform: React.FC = () => (
-  <Card title="Personal Information" style={{ maxWidth: 600, margin: "auto" }}>
+  <Card title="Personal Information">
     <Form {...formItemLayout} variant="filled">
       <Form.Item
         label="National ID :"

@@ -7,7 +7,7 @@ const Family: React.FC = () => {
   };
 
   return (
-    <Card title="Family Information" style={{ maxWidth: 600, margin: "auto" }}>
+    <Card title="Family Information">
       <form onSubmit={handleFormSubmit}>
         <label>
           <input type="radio" name="like" value="like" /> Yes
